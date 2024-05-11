@@ -1,0 +1,93 @@
+.c-container{
+    background-color: red;
+}
+.c-box-c{
+    border: 2px solid black;
+}
+/* 
+.chdiv{
+
+    height: 620px;
+    width: 100%;
+    padding-top: 20px;
+    background-color: #1B998B;
+    padding: 100px 0px;
+}
+
+.div2{
+    width: 100%;
+    padding: 0px 0px;
+    background-color: #FFEEAF;
+    height: 100vh;
+    
+
+}
+.headdiv{ 
+    height: 600px;
+    width: 100%;
+    background-image: url("/src/components/images/ad1.png");
+    background-position: bottom;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.imgc{
+    margin-left: 0px;
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1px 2px 2px 1px;
+    box-shadow:2px 2px 2px #111;
+    justify-content: left;
+    
+}
+.head1{
+
+   justify-content: center;
+    width: auto;
+    color: aliceblue;
+    font-size: 170px;
+    text-align: center;
+    align-items: center;
+    padding: 0px 0px;
+    text-transform: uppercase;
+    font-family: 'Steelfish Rg', 'helvetica neue',
+                    helvetica, arial, sans-serif;
+    font-weight: 800;
+    font-weight: bold;
+}
+
+
+.container{
+    width: 100%;
+    height:300px;
+    margin-top: 30px;
+}
+
+.bannerdiv{
+    width: 100%;
+    height: 500px;
+    margin:2px 0px;
+    background-image: url("/src/components/images/comb.png");
+    background-size:cover;
+    background-position:bottom center;
+    background-attachment: fixed;
+    animation: moveIt 200s linear infinite;
+    position: absolute;
+    overflow: hidden;
+
+}
+
+
+@keyframes moveIt {
+      to {background-position:right;} */  /* from  {background-position: left;}
+
+
+    0%   {background-position: left;}
+    25%  {background-position: center;}
+    50%  {background-position: right;}
+    75%   {background-position: center;}
+    100%   {background-position: left;}
+  }
+ */

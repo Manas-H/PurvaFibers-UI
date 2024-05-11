@@ -1,0 +1,15 @@
+.card {
+    background-color: transparent;
+    border-radius: 6px;
+    text-decoration: none;
+    height:fit-content;
+    /* width:24vw; */
+   margin: 10px 50px;
+    overflow: hidden;
+    transition: transform 0.6s linear;
+  }
+  .card:hover{
+    
+    transform: scale(1.1);
+  }
+  

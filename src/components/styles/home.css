@@ -1,0 +1,150 @@
+
+.home-page-full{
+    position: relative;
+    background: url(../images/comb.png) fixed;
+    background-size: cover;
+    -webkit-background-size:cover;
+}
+/* whole body of img and h1, p, button */
+.body1{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width:100%;
+    position: relative;
+    z-index: -2;
+    overflow:visible;
+    height: 100%;
+
+}
+.main-body{
+    padding-top: 20px;
+    margin-bottom: 100px;
+    height:100vh;    
+    /* background-image: linear-gradient(0deg,#90C8AC 0%,#7FB77E 100%);  */
+    background-color: #8ab5ac;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 58px;
+    z-index: -1;
+    overflow: visible;
+}
+
+.swiper-autop{
+    overflow: visible;
+    position: relative;
+    z-index:-2;
+
+}
+
+.swiper-wrapper {
+    overflow: visible;
+}
+.slideme{
+
+    display: inline-block;
+    position:relative;
+    z-index: -1;
+    overflow: visible;
+}
+/* image of the home page starting */
+.div-img img{
+    height:450px;
+    width:500px;
+    /* margin-right: 100px; */
+    width: auto;
+}
+
+/* whole div for h1, para and button */
+.div-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    color: #ffffff;
+   padding-left: 100px;
+    
+}
+/* heading abover para */
+.div-text h1{
+    font-size: 45px;
+    font-weight: 300;
+    width: 100%;
+    /* color: ; */
+    
+}
+
+/* Para above button */
+.div-text p{
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* home page starting learn more button */
+.div-text button{
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 8px 20px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffff;
+    transition: background-color 1s;
+}
+
+.img1{
+  transition: transform 2s ease-out;
+  box-shadow: inset 3px;
+  border-radius: 16px 16px;
+}
+.img1:hover{
+    transform:scale(1.25);
+}
+
+/* button hover css */
+.div-text button:hover{
+    background-color: #22c1c3;
+}
+.products-temp{
+display: flex;
+padding: 20px;
+justify-content: space-between;
+}
+
+@media (max-width: 990px) {
+    .main-body{
+        display:block;  
+        height: auto;
+        width: 100%;
+    }
+    .div-img img{
+        display:block;
+        /* margin: 0 0 0 3vh; */
+        height:280px;
+        width:330px;
+    }
+    .div-text{
+        text-align: center;
+        width: 100%;
+        padding: 10px;
+    }
+    .div-text h1{
+        font-size:25px;
+        padding:auto;
+    }
+    .div-text button{
+      margin-top:18px;
+    }
+    .body1,.body2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }  
+    
+/* .swiper-autop{
+    width: 100%;
+}  */
+}

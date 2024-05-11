@@ -1,0 +1,116 @@
+/* .about-top{
+    position: relative;
+    top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 44px;
+} */
+.abt-heading{
+    font-size: 34px;
+    font-weight: 400;
+}
+.abt-links ul, .abt-links ul li{
+    display: flex;
+    text-decoration: none;
+    font-size: 35px;
+    padding: 20px 10px 10px 17px;
+}
+
+/* .abt-main-sec{
+    position: relative;
+    background:  #96c9be;
+} */
+
+.abt-bx-content {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-top: 17px; */
+}
+
+.abt-bx-content .bx{
+    width: 400px;
+    padding: 20px 0;
+    text-align: center;
+    font-weight: 100;
+    border:2px solid white;
+    cursor: pointer;
+}
+.abt-bx-content .bx:hover{
+    background-color: #8ab5ac;
+}
+.active-tabs{
+    background-color: #8ab5ac;
+}
+.abt-right{
+    /* border: 2px solid black; */
+    
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    border: 0.1px solid lightgray;
+    background-color: aliceblue;
+    box-shadow: 0 3px 10px rgba(161, 141, 141, 0.2);
+    border-radius: 10px;
+    padding: 50px;
+}
+.form h2{
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+}
+.input-feild{
+    display: flex;
+    flex-direction: column;
+    padding: 4px 0;
+}
+.input-feild label{
+    padding-bottom: 5px;
+}
+.input-feild input, textarea{
+    width: 100%;
+    border: .1px solid black;
+    padding: 10px;
+}
+.input-feild span{
+    color:red;
+}
+.form button{
+    color: black;
+    background-color: #8aeed8d0;
+    border: 0.1px  solid black;
+    padding: 3px 10px;
+    margin-top: 20px;
+}
+.form button:hover{
+    background-color: lightslategray;
+}
+
+/* who are we page css */
+.who-are-we{
+    text-align: center;
+}
+.who-are-we p{
+    font-size: 22px;
+    font-weight: 200;
+    margin-top: 10vh;
+}
+
+.content {
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+
+  .active-content {
+    display: block;
+    display: flex;
+    justify-content: center;
+
+  }
